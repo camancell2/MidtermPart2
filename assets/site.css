@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background: rgb(243, 242, 242);
+}
+
+#title-section h2 {
+    text-align: center;
+}
+
+#search-section {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-section div input {
+    padding: 10px;
+    width: 400px;
+}
+
+#search-section div button {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#movie-section {
+    background: rgb(243, 242, 242);
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+
+    /* overflow: auto; */
+    /* height: 30vh; */
+
+    text-align: center;
+
+    gap: 10px;
+}
+
+
+#movie-section div img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#movie-section div {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 10px;
+}
+
+#movie-section time {
+    margin-top: 8px;
+}
